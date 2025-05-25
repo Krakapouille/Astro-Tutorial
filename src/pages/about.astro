@@ -35,8 +35,8 @@ const goal = 7;
         <ul>
         <li>Je m'appelle {identity.firstName}.</li>
         <li>Je vis au {identity.country} et je travaille en tant que {identity.occupation}.</li>
-        {identity.hobbies.length >= 2 &&
-            <li>Deux de mes loisirs sont : {identity.hobbies[0]} et {identity.hobbies[1]}</li>
+        {identity.hobbies.length >= 3 &&
+            <li>Trois de mes loisirs sont : {identity.hobbies[0]}, {identity.hobbies[1]} et {identity.hobbies[2]}</li>
         }
         </ul>
         <p>Voici mes compétences :</p>
